@@ -1,12 +1,12 @@
 module github.com/MixinNetwork/ocean.one
 
-go 1.21
+go 1.24.5
 
 require (
 	cloud.google.com/go/logging v1.8.1
 	cloud.google.com/go/spanner v1.49.0
 	github.com/MixinNetwork/bot-api-go-client v1.8.6
-	github.com/MixinNetwork/go-number v0.1.0
+	github.com/MixinNetwork/go-number v0.2.0
 	github.com/dimfeld/httptreemux v5.0.1+incompatible
 	github.com/emirpasic/gods v1.18.1
 	github.com/facebookgo/grace v0.0.0-20180706040059-75cf19382434
@@ -17,7 +17,7 @@ require (
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/websocket v1.5.0
 	github.com/nyaruka/phonenumbers v1.1.8
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.10.0
 	github.com/ugorji/go/codec v1.2.11
 	github.com/unrolled/render v1.6.0
 	golang.org/x/crypto v0.13.0
@@ -45,8 +45,12 @@ require (
 	github.com/envoyproxy/go-control-plane v0.11.1 // indirect
 	github.com/envoyproxy/protoc-gen-validate v1.0.2 // indirect
 	github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a // indirect
+	github.com/facebookgo/ensure v0.0.0-20200202191622-63f1cf65ac4c // indirect
+	github.com/facebookgo/freeport v0.0.0-20150612182905-d4adf43b75b9 // indirect
 	github.com/facebookgo/httpdown v0.0.0-20180706035922-5979d39b15c2 // indirect
+	github.com/facebookgo/stack v0.0.0-20160209184415-751773369052 // indirect
 	github.com/facebookgo/stats v0.0.0-20151006221625-1b76add642e4 // indirect
+	github.com/facebookgo/subset v0.0.0-20200203212716-c811ad88dec4 // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
 	github.com/fox-one/msgpack v1.0.0 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
@@ -64,7 +68,7 @@ require (
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/shopspring/decimal v1.3.1 // indirect
+	github.com/shopspring/decimal v1.4.0 // indirect
 	github.com/vmihailenco/msgpack/v4 v4.3.12 // indirect
 	github.com/vmihailenco/tagparser v0.1.2 // indirect
 	github.com/zeebo/blake3 v0.2.3 // indirect
